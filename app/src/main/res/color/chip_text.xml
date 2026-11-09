@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text color of a source chip on Home (TV / large screen): white when focused, cyan when it is the active source, dim otherwise. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/text" android:state_focused="true" />
+    <item android:color="@color/accent" android:state_selected="true" />
+    <item android:color="@color/text_dim" />
+</selector>
